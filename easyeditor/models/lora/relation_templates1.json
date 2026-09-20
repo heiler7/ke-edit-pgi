@@ -1,0 +1,441 @@
+{
+    "director / manager": {
+        "one_hop": [
+            "Who is the director or manager of {subject}?",
+            "Which person serves as the director or manager of {subject}?"
+        ],
+        "multi_hop": [
+            "the director or manager of {subject}"
+        ]
+    },
+    "occupation": {
+        "one_hop": [
+            "What is the occupation of {subject}?"
+        ],
+        "multi_hop": [
+            "the occupation of {subject}"
+        ]
+    },
+    "employer": {
+        "one_hop": [
+            "Who is the employer of {subject}?"
+        ],
+        "multi_hop": [
+            "the employer of {subject}"
+        ]
+    },
+    "founded by": {
+        "one_hop": [
+            "Who was {subject} founded by?",
+            "By whom was {subject} founded?"
+        ],
+        "multi_hop": [
+            "the entity {subject} was founded by",
+            "the person or organization that {subject} was founded by"
+        ]
+    },
+    "officeholder": {
+        "one_hop": [
+            "Who is the officeholder of {subject}?"
+        ],
+        "multi_hop": [
+            "the officeholder of {subject}"
+        ]
+    },
+    "genre": {
+        "one_hop": [
+            "What is the genre of {subject}?"
+        ],
+        "multi_hop": [
+            "the genre of {subject}"
+        ]
+    },
+    "religion or worldview": {
+        "one_hop": [
+            "What is the religion or worldview of {subject}?"
+        ],
+        "multi_hop": [
+            "the religion or worldview of {subject}"
+        ]
+    },
+    "languages spoken, written or signed": {
+        "one_hop": [
+            "What are the languages spoken, written or signed by {subject}?"
+        ],
+        "multi_hop": [
+            "the languages spoken, written or signed by {subject}"
+        ]
+    },
+    "headquarters location": {
+        "one_hop": [
+            "What is the headquarters location of {subject}?"
+        ],
+        "multi_hop": [
+            "the headquarters location of {subject}"
+        ]
+    },
+    "chief executive officer": {
+        "one_hop": [
+            "Who is the chief executive officer of {subject}?"
+        ],
+        "multi_hop": [
+            "the chief executive officer of {subject}"
+        ]
+    },
+    "creator": {
+        "one_hop": [
+            "Who is the creator of {subject}?"
+        ],
+        "multi_hop": [
+            "the creator of {subject}"
+        ]
+    },
+    "performer": {
+        "one_hop": [
+            "Who is the performer of {subject}?"
+        ],
+        "multi_hop": [
+            "the performer of {subject}"
+        ]
+    },
+    "manufacturer": {
+        "one_hop": [
+            "Who is the manufacturer of {subject}?"
+        ],
+        "multi_hop": [
+            "the manufacturer of {subject}"
+        ]
+    },
+    "developer": {
+        "one_hop": [
+            "Who is the developer of {subject}?"
+        ],
+        "multi_hop": [
+            "the developer of {subject}"
+        ]
+    },
+    "place of birth": {
+        "one_hop": [
+            "What is the place of birth of {subject}?"
+        ],
+        "multi_hop": [
+            "the place of birth of {subject}"
+        ]
+    },
+    "place of death": {
+        "one_hop": [
+            "What is the place of death of {subject}?"
+        ],
+        "multi_hop": [
+            "the place of death of {subject}"
+        ]
+    },
+    "spouse": {
+        "one_hop": [
+            "Who is the spouse of {subject}?"
+        ],
+        "multi_hop": [
+            "the spouse of {subject}"
+        ]
+    },
+    "country of citizenship": {
+        "one_hop": [
+            "What is the country of citizenship of {subject}?"
+        ],
+        "multi_hop": [
+            "the country of citizenship of {subject}"
+        ]
+    },
+    "head coach": {
+        "one_hop": [
+            "Who is the head coach of {subject}?"
+        ],
+        "multi_hop": [
+            "the head coach of {subject}"
+        ]
+    },
+    "continent": {
+        "one_hop": [
+            "What is the continent of {subject}?",
+            "Which continent is {subject} associated with?"
+        ],
+        "multi_hop": [
+            "the continent of {subject}"
+        ]
+    },
+    "head of state": {
+        "one_hop": [
+            "Who is the head of state of {subject}?"
+        ],
+        "multi_hop": [
+            "the head of state of {subject}"
+        ]
+    },
+    "capital": {
+        "one_hop": [
+            "What is the capital of {subject}?"
+        ],
+        "multi_hop": [
+            "the capital of {subject}"
+        ]
+    },
+    "original language of film or TV show": {
+        "one_hop": [
+            "What is the original language of the film or TV show {subject}?"
+        ],
+        "multi_hop": [
+            "the original language of the film or TV show {subject}"
+        ]
+    },
+    "official language": {
+        "one_hop": [
+            "What is the official language of {subject}?"
+        ],
+        "multi_hop": [
+            "the official language of {subject}"
+        ]
+    },
+    "child": {
+        "one_hop": [
+            "Who is the child of {subject}?"
+        ],
+        "multi_hop": [
+            "the child of {subject}"
+        ]
+    },
+    "language of work or name": {
+        "one_hop": [
+            "What is the language of the work or name {subject}?"
+        ],
+        "multi_hop": [
+            "the language of the work or name {subject}"
+        ]
+    },
+    "position played on team / speciality": {
+        "one_hop": [
+            "What is the position played on the team or speciality of {subject}?"
+        ],
+        "multi_hop": [
+            "the position played on the team or speciality of {subject}"
+        ]
+    },
+    "original broadcaster": {
+        "one_hop": [
+            "Who is the original broadcaster of {subject}?"
+        ],
+        "multi_hop": [
+            "the original broadcaster of {subject}"
+        ]
+    },
+    "chairperson": {
+        "one_hop": [
+            "Who is the chairperson of {subject}?"
+        ],
+        "multi_hop": [
+            "the chairperson of {subject}"
+        ]
+    },
+    "country of origin": {
+        "one_hop": [
+            "What is the country of origin of {subject}?"
+        ],
+        "multi_hop": [
+            "the country of origin of {subject}"
+        ]
+    },
+    "author": {
+        "one_hop": [
+            "Who is the author of {subject}?"
+        ],
+        "multi_hop": [
+            "the author of {subject}"
+        ]
+    },
+    "head of government": {
+        "one_hop": [
+            "Who is the head of government of {subject}?"
+        ],
+        "multi_hop": [
+            "the head of government of {subject}"
+        ]
+    },
+    "position holder": {
+        "one_hop": [
+            "Who holds the position of {subject}?",
+            "Which person is the {subject}?",
+            "Who serves as the {subject}?",
+            "What person holds the position of {subject}?"
+        ],
+        "multi_hop": [
+            "the position holder of {subject}"
+        ]
+    },
+    "instrument": {
+        "one_hop": [
+            "What instrument does {subject} play?",
+            "Which instrument does {subject} use?",
+            "What instrument is {subject} known for playing?",
+            "What musical instrument does {subject} play or use?"
+        ],
+        "multi_hop": [
+            "the instrument that {subject} plays",
+            "the instrument used by {subject}",
+            "the musical instrument of {subject}"
+        ]
+    },
+    "sport": {
+        "one_hop": [
+            "What is the sport associated with {subject}?",
+            "What sport does {subject} participate in or belong to?",
+            "What is the sport of {subject}?"
+        ],
+        "multi_hop": [
+            "the sport associated with {subject}",
+            "the sport of {subject}"
+        ]
+    },
+    "educated at": {
+        "one_hop": [
+            "Where was {subject} educated at?"
+        ],
+        "multi_hop": [
+            "the institution that {subject} was educated at"
+        ]
+    },
+    "location of formation": {
+        "one_hop": [
+            "What is the location of formation of {subject}?"
+        ],
+        "multi_hop": [
+            "the location of formation of {subject}"
+        ]
+    },
+    "notable work": {
+        "one_hop": [
+            "What is the notable work of {subject}?"
+        ],
+        "multi_hop": [
+            "the notable work of {subject}"
+        ]
+    },
+    "work location": {
+        "one_hop": [
+            "What is the work location of {subject}?"
+        ],
+        "multi_hop": [
+            "the work location of {subject}"
+        ]
+    },
+    "native language": {
+        "one_hop": [
+            "What is the native language of {subject}?"
+        ],
+        "multi_hop": [
+            "the native language of {subject}"
+        ]
+    },
+    "owned by": {
+        "one_hop": [
+            "Who is {subject} owned by?"
+        ],
+        "multi_hop": [
+            "the entity {subject} is owned by"
+        ]
+    },
+    "record label": {
+        "one_hop": [
+            "What is the record label of {subject}?"
+        ],
+        "multi_hop": [
+            "the record label of {subject}"
+        ]
+    },
+    "located in the administrative territorial entity": {
+        "one_hop": [
+            "In which administrative territorial entity is {subject} located?"
+        ],
+        "multi_hop": [
+            "the administrative territorial entity in which {subject} is located"
+        ]
+    },
+    "named after": {
+        "one_hop": [
+            "Who or what is {subject} named after?"
+        ],
+        "multi_hop": [
+            "the entity that {subject} is named after"
+        ]
+    },
+    "country": {
+        "one_hop": [
+            "What is the country of {subject}?"
+        ],
+        "multi_hop": [
+            "the country of {subject}"
+        ]
+    },
+    "sister city": {
+        "one_hop": [
+            "What is the sister city of {subject}?"
+        ],
+        "multi_hop": [
+            "the sister city of {subject}"
+        ]
+    },
+    "twinned administrative body": {
+        "one_hop": [
+            "What is the twinned administrative body of {subject}?"
+        ],
+        "multi_hop": [
+            "the twinned administrative body of {subject}"
+        ]
+    },
+    "original language of film or tv show": {
+        "one_hop": [
+            "What is the original language of the film or tv show {subject}?"
+        ],
+        "multi_hop": [
+            "the original language of the film or tv show of {subject}"
+        ]
+    },
+    "location": {
+        "one_hop": [
+            "What is the location of {subject}?"
+        ],
+        "multi_hop": [
+            "the location of {subject}"
+        ]
+    },
+    "position held": {
+        "one_hop": [
+            "What is the position held by {subject}?"
+        ],
+        "multi_hop": [
+            "the position held by {subject}"
+        ]
+    },
+    "member of": {
+        "one_hop": [
+            "What is {subject} a member of?"
+        ],
+        "multi_hop": [
+            "the entity that {subject} is a member of"
+        ]
+    },
+    "field of work": {
+        "one_hop": [
+            "What is the field of work of {subject}?"
+        ],
+        "multi_hop": [
+            "the field of work of {subject}"
+        ]
+    },
+    "default": {
+        "one_hop": [
+            "What is the {relation} of {subject}?"
+        ],
+        "multi_hop": [
+            "the {relation} of {subject}"
+        ]
+    }
+}
