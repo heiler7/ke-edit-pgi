@@ -3,7 +3,7 @@ This repository about our method is based on EasyEdit about LoRA.
 ### 1. Environment Setup
 
 ```shell
-cd EasyEdit
+cd ke-edit-pgi
 conda create -n editpgi python=3.10.3
 conda activate editpgi
 pip install -r requirements.txt
