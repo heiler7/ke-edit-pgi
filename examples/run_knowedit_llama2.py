@@ -114,19 +114,9 @@ def eval(result_path):
 
 dataset_graph_dict = {
     'zsre.json': 'zsre_with_relations_fixed_merged_graph.json',
-    # 'mquake_easyedit_3k.json': 'MQuAKE-CF-3k_merged_graph_noappend.json',
-    # 'mquake_easyedit_3k.json': 'MQuAKE-CF-3k_graph_1_to_3000_2append.json',
-    # 'mquake_easyedit_3k.json': 'MQuAKE-CF-3k_merged_graph_expect_withouttest.json',
     'mquake_easyedit_3k.json': 'MQuAKE-CF-3k_merged_graph_expect_summarys_cleaned.json',
-    # 'mquake_easyedit_3k_1_noalias.json': 'MQuAKE-CF-3k_merged_graph_expect_withouttest_api_summarys.json',
-    # 'mquake_easyedit_3k_1_noalias.json': 'MQuAKE-3k_merged_graph_expect_withouttest_api_filtered_5.json',
-    # 'mquake_easyedit_T_1_noalias.json': 'MQuAKE-T_merged_graph_expect_withouttest_api_filtered_5.json',
-    # 'mquake_easyedit_3k_1_add_alias.json': 'MQuAKE-3k_merged_graph_expect_withouttest_api_filtered_5.json',
-    # 'mquake_easyedit_T_1_add_alias.json': 'MQuAKE-T_merged_graph_expect_withouttest_api_filtered_5.json',
     'mquake_easyedit_3k_1_add_alias.json': 'MQuAKE-3k_merged_graph_expect_withouttest_api_summarys_filtered_5.json',
-    'mquake_easyedit_T_1_add_alias.json': 'MQuAKE-T_merged_graph_expect_withouttest_api_summarys_filtered_5.json',
-    # 'mquake_easyedit_3k_1_noalias.json': 'MQuAKE-CF-3k_merged_graph_expect_withouttest_min_api_summarys.json',
-    # 'mquake_easyedit_T_1_noalias.json': 'MQuAKE-T_merged_graph_expect_withouttest_min_api_summarys.json'
+    'mquake_easyedit_T_1_add_alias.json': 'MQuAKE-T_merged_graph_expect_withouttest_api_summarys_filtered_5.json'
 }
 
 
@@ -136,7 +126,7 @@ if __name__ == "__main__":
     # parser.add_argument('--hparams_dir', default='../hparams/LoRA/llama-7b', type=str)
     parser.add_argument('--hparams_dir', default='../hparams/LoRA/vicuna-7b', type=str)
     parser.add_argument('--data_dir', default='./data/mquake_easyedit_3k_1_add_alias.json', type=str)
-    parser.add_argument('--ds_size', default=None, type=int) # , default=300
+    parser.add_argument('--ds_size', default=None, type=int) 
     parser.add_argument('--metrics_save_dir', default='./output', type=str)
     # parser.add_argument('--datatype', default='counterfact',type=str)
     parser.add_argument('--datatype', default='mquake',type=str)
@@ -486,9 +476,7 @@ if __name__ == "__main__":
     result_path = os.path.join(args.metrics_save_dir, f'{args.editing_method}_{args.datatype}_{"sequential" if _sequential_edit else "non_sequential"}_{args.ds_size if args.ds_size is not None else "full"}_{args.data_dir.split("/")[-1].split(".")[0]}_{hparams.model_name.split("/")[-1]}_results_add_alias_'+args.testname+'.json')
     json.dump(metrics, open(result_path, 'w'), indent=4)
     eval(result_path)
-    # edit_model_path = os.path.join(args.metrics_save_dir,"kd_llama2_edited_model_with_"+args.testname)
-    # edited_model.save_pretrained(edit_model_path)
-    # editor.tok.save_pretrained(edit_model_path)
+
 
     print(args.editing_method)
     print(hparams.model_name)

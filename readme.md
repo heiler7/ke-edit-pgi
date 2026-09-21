@@ -1,4 +1,5 @@
 This repository about our method is based on EasyEdit about LoRA.
+For 'MULTI-HOP KNOWLEDGE EDITING THROUGH IN-PARAMETER GRAPH INJECTION FOR LARGE LANGUAGE MODELS'.
 
 ### 1. Environment Setup
 
