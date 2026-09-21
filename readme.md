@@ -11,7 +11,7 @@ This repository contains the code of our method **EditPGI**, which is built on E
 ```
 ke-edit-pgi/
 ├── easyeditor/                # Core library
-│   ├── editors/               # Main editing pipeline (editor.py, GNN.py, kga_llama_v3.py, ...)
+│   ├── editors/               # Main editing pipeline (editor.py)
 │   ├── models/                # Implementations of editing methods (LoRA, MEMIT, ROME, ...)
 │   ├── dataset/               # Dataset loaders (MQuAKE, KnowEdit, ...)
 │   ├── evaluate/              # Evaluation utilities
@@ -21,7 +21,7 @@ ke-edit-pgi/
 │   ├── run_knowedit_llama2.py # Main script for MQuAKE knowledge editing
 │   └── data/                  # MQuAKE benchmark and processed data files
 ├── hparams/                   # Hyperparameter configs for each editing method
-│   └── LoRA/                  # LoRA configs (e.g. llama-7b)
+│   └── LoRA/                  # LoRA configs 
 ├── steer/                     # Steering-related modules
 ├── figs/                      # Figures
 ├── tutorial-notebooks/        # Tutorial notebooks
